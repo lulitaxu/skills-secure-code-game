@@ -29,4 +29,3 @@ jobs:
         run: |
           STATUS=$(curl -s https://www.githubstatus.com/api/v2/status.json | jq -r '.status.description')
           echo "GitHub Status: $STATUS"
-          get-token: "token-4db56ee8-dbec-46f3-96f5-32247695ab9b"
